@@ -7,4 +7,10 @@
     <string name="free_throw">Free Throw</string>
     <string name="team_b">Team B</string>
     <string name="reset">Reset</string>
+    <string name="western_division">Western Division</string>
+    <string name="eastern_division">Eastern Division</string>
+    <string name="eastern">Eastern</string>
+    <string name="western">Western</string>
+
+
 </resources>
