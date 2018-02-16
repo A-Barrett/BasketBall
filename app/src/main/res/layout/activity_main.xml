@@ -49,7 +49,8 @@
                 android:layout_marginTop="@dimen/marginTop_s"
                 android:background="@color/green_m"
                 android:onClick="addThreeForTeamA"
-                android:text="@string/_3_points" />
+                android:text="@string/_3_points"
+                android:textStyle="bold" />
 
             <Button
                 android:layout_width="@dimen/width_m"
@@ -59,7 +60,8 @@
                 android:layout_marginStart="@dimen/marginStart"
                 android:background="@color/green_m"
                 android:onClick="addTwoForTeamA"
-                android:text="@string/_2_points" />
+                android:text="@string/_2_points"
+                android:textStyle="bold" />
 
             <Button
                 android:layout_width="@dimen/width_s"
@@ -69,7 +71,8 @@
                 android:layout_marginStart="@dimen/marginLeft_m"
                 android:background="@color/green_m"
                 android:onClick="addOneForTeamA"
-                android:text="@string/free_throw" />
+                android:text="@string/free_throw"
+                android:textStyle="bold" />
 
 
         </LinearLayout>
@@ -118,7 +121,8 @@
                 android:layout_marginStart="@dimen/marginStart_50"
                 android:background="@color/m_Blue"
                 android:onClick="addThreeForTeamB"
-                android:text="@string/_3_points" />
+                android:text="@string/_3_points"
+                android:textStyle="bold" />
 
             <Button
                 android:layout_width="@dimen/layout_width_ml"
@@ -128,7 +132,8 @@
                 android:layout_marginStart="@dimen/marginStart_70"
                 android:background="@color/m_Blue"
                 android:onClick="addTwoForTeamB"
-                android:text="@string/_2_points" />
+                android:text="@string/_2_points"
+                android:textStyle="bold" />
 
             <Button
                 android:layout_width="@dimen/width_s"
@@ -138,7 +143,8 @@
                 android:layout_marginStart="@dimen/margin_start_l"
                 android:background="@color/m_Blue"
                 android:onClick="addOneForTeamB"
-                android:text="@string/free_throw" />
+                android:text="@string/free_throw"
+                android:textStyle="bold" />
 
 
         </LinearLayout>
@@ -153,7 +159,8 @@
         android:layout_marginBottom="@dimen/marginBottom_sm"
         android:background="@color/darkYellow"
         android:onClick="resetScore"
-        android:text="@string/reset" />
+        android:text="@string/reset"
+        android:textStyle="bold" />
 
 </RelativeLayout>
 
