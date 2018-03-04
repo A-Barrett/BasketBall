@@ -6,9 +6,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import static java.lang.String.valueOf;
-
-
 public class MainActivity extends AppCompatActivity {
+
     /**
      * Prevents scores from resetting after view rotation.
      */
@@ -28,10 +27,10 @@ public class MainActivity extends AppCompatActivity {
         }
         setContentView(R.layout.activity_main);
 
-        TextView teamAscore = (TextView) findViewById(R.id.team_a_score);
+        TextView teamAscore = findViewById( R.id.team_a_score );
         teamAscore.setText(valueOf(scoreTeamA));
 
-        TextView teamBscore = (TextView) findViewById(R.id.team_b_score);
+        TextView teamBscore = findViewById( R.id.team_b_score );
         teamBscore.setText(valueOf(scoreTeamB));
     }
 
@@ -126,5 +125,3 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 }
-
-
