@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // TextViews
+
+    <dimen name="m_s_fifty">50dp</dimen>
+    <dimen name="p_b_sixteen">16dp</dimen>
+    <dimen name="p_t_ninety">90dp</dimen>
+    <dimen name="t_s_fifty">50sp</dimen>
+    <dimen name="t_s_twenty">20sp</dimen>
+    <dimen name="lo_h_twofiftyeight">258dp</dimen>
+    <dimen name="p_t_eighty">80dp</dimen>
+
+
+    // Buttons
+
+    <dimen name="b_w_one_hundred">100dp</dimen>
+    <dimen name="m_B_eight">8dp</dimen>
+    <dimen name="m_t_thirteen">13dp</dimen>
+    <dimen name="lo_w_eighty">80dp</dimen>
+    <dimen name="lo_h_fourty">40dp</dimen>
+    <dimen name="m_b_eight">8dp</dimen>
+    <dimen name="lo_w_sixty">60dp</dimen>
+    <dimen name="m_s_ten">10dp</dimen>
+    <dimen name="m_e_sixteen">16dp</dimen>
+    <dimen name="lo_w_two">2dp</dimen>
+    <dimen name="p_e_six">6dp</dimen>
+    <dimen name="lo_w_five">5dp</dimen>
+    <dimen name="m_s_sixtyfive">65dp</dimen>
+    <dimen name="p_s_sixteen">16dp</dimen>
+    <dimen name="lo_w_fifty">50dp</dimen>
+    <dimen name="l_o_w_onehundred">100dp</dimen>
+    <dimen name="lo_w_zero">0dp</dimen>
+    <dimen name="lo_h_twofourtysix">246dp</dimen>
+    <dimen name="m_s_seventy">70dp</dimen>
+    <dimen name="m_s_ninety">90dp</dimen>
+    <dimen name="m_s_oneten">110dp</dimen>
+
+
+</resources>

@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextStyle">
+        <item name="android:layout_height">@dimen/lo_h_fourty</item>
+    </style>
+
 </resources>

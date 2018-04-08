@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/court"
-    tools:context="com.example.android.basketball.MainActivity">
+    tools:context="com.example.android.basketball.MainActivity"
+    android:fillViewport="true">
 
     <RelativeLayout
         android:layout_width="match_parent"
