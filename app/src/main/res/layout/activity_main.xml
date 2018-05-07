@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/court"
     tools:context="com.example.android.basketball.MainActivity"
-    android:fillViewport="true">
+    style="@style/ScrollView">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -13,151 +10,72 @@
 
         <LinearLayout
             android:id="@+id/linearLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            style="@style/Linear1">
 
-            <LinearLayout
-                android:layout_width="@dimen/lo_w_zero"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
+            <LinearLayout style="@style/Linear2">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/m_s_fifty"
                     android:text="@string/eastern"
-                    android:textColor="@color/studioBlack"
-                    android:textSize="@dimen/t_s_twenty"
-                    android:textStyle="bold" />
+                    style="@style/textViewEastern" />
 
                 <TextView
                     android:id="@+id/team_a_score"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/lo_h_twofourtysix"
-                    android:freezesText="true"
-                    android:gravity="center"
-                    android:paddingBottom="@dimen/p_b_sixteen"
-                    android:paddingTop="@dimen/p_t_ninety"
                     android:text="@string/_0"
-                    android:textColor="@color/green_m"
-                    android:textSize="@dimen/t_s_fifty"
-                    android:textStyle="bold" />
+                    style="@style/textViewTeamAscore" />
 
                 <Button
-                    android:layout_width="@dimen/b_w_one_hundred"
-                    android:layout_height="@dimen/lo_h_fourty"
-                    android:layout_marginBottom="@dimen/m_B_eight"
-                    android:layout_marginStart="@dimen/m_s_ten"
-                    android:layout_marginTop="@dimen/m_t_thirteen"
-                    android:background="@color/green_m"
                     android:onClick="addThreeForTeamA"
                     android:text="@string/_3_points"
-                    android:textStyle="bold" />
+                    style="@style/ButtonGreenThreePoints" />
 
                 <Button
-                    android:layout_width="@dimen/lo_w_eighty"
-                    android:layout_height="@dimen/lo_h_fourty"
-                    android:layout_marginBottom="@dimen/m_b_eight"
-                    android:layout_marginEnd="@dimen/m_e_sixteen"
-                    android:layout_marginStart="@dimen/m_s_ten"
-                    android:background="@color/green_m"
                     android:onClick="addTwoForTeamA"
                     android:text="@string/_2_points"
-                    android:textStyle="bold" />
+                    style="@style/ButtonGreenTwoPoints" />
 
                 <Button
-                    android:layout_width="@dimen/lo_w_sixty"
-                    android:layout_height="@dimen/lo_h_fourty"
-                    android:layout_marginBottom="@dimen/m_b_eight"
-                    android:layout_marginEnd="@dimen/m_e_sixteen"
-                    android:layout_marginStart="@dimen/m_s_ten"
-                    android:background="@color/green_m"
                     android:onClick="addOneForTeamA"
                     android:text="@string/free_throw"
-                    android:textStyle="bold" />
+                    style="@style/ButtonGreenFreeThrow" />
 
             </LinearLayout>
 
-            <View
-                android:layout_width="@dimen/lo_w_two"
-                android:layout_height="match_parent"
-                android:background="@android:color/black"
-                android:visibility="visible" />
+            <View style="@style/TextCenterLine" />
 
-            <LinearLayout
-                android:layout_width="@dimen/lo_w_five"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+            <LinearLayout style="@style/Linear3">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/m_s_sixtyfive"
-                    android:paddingEnd="@dimen/p_e_six"
-                    android:paddingStart="@dimen/p_s_sixteen"
                     android:text="@string/western"
-                    android:textColor="@color/studioBlack"
-                    android:textSize="@dimen/t_s_twenty"
-                    android:textStyle="bold" />
+                    style="@style/TextViewWestern" />
 
                 <TextView
                     android:id="@+id/team_b_score"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/lo_h_twofiftyeight"
-                    android:freezesText="true"
-                    android:gravity="center"
-                    android:paddingBottom="@dimen/p_b_sixteen"
-                    android:paddingTop="@dimen/p_t_eighty"
                     android:text="@string/_0"
-                    android:textColor="@color/m_Blue"
-                    android:textSize="@dimen/t_s_fifty"
-                    android:textStyle="bold" />
+                    style="@style/TextViewBlueScore" />
 
                 <Button
-                    android:layout_width="@dimen/l_o_w_onehundred"
-                    android:layout_height="@dimen/lo_h_fourty"
-                    android:layout_marginBottom="@dimen/m_B_eight"
-                    android:layout_marginStart="@dimen/m_s_seventy"
-                    android:background="@color/m_Blue"
                     android:onClick="addThreeForTeamB"
                     android:text="@string/_3_points"
-                    android:textStyle="bold" />
+                    style="@style/ButtonBlueThreePoints" />
 
                 <Button
-                    android:layout_width="@dimen/lo_w_eighty"
-                    android:layout_height="@dimen/lo_h_fourty"
-                    android:layout_marginBottom="@dimen/m_b_eight"
-                    android:layout_marginStart="@dimen/m_s_ninety"
-                    android:background="@color/m_Blue"
                     android:onClick="addTwoForTeamB"
                     android:text="@string/_2_points"
-                    android:textStyle="bold" />
+                    style="@style/ButtonBlueTwoPoints" />
 
                 <Button
-                    android:layout_width="@dimen/lo_w_sixty"
-                    android:layout_height="@dimen/lo_h_fourty"
-                    android:layout_marginStart="@dimen/m_s_oneten"
-                    android:background="@color/m_Blue"
                     android:onClick="addOneForTeamB"
                     android:text="@string/free_throw"
-                    android:textStyle="bold" />
+                    style="@style/ButtonBlueFreeThrow" />
 
             </LinearLayout>
         </LinearLayout>
 
         <Button
             android:id="@+id/reset"
-            android:layout_width="@dimen/lo_w_fifty"
-            android:layout_height="@dimen/lo_h_fourty"
-            android:layout_below="@+id/linearLayout"
-            android:layout_centerHorizontal="true"
-            android:background="@color/darkYellow"
             android:onClick="resetScore"
             android:text="@string/reset"
-            android:textStyle="bold" />
+            style="@style/ButtonReset" />
 
     </RelativeLayout>
 </ScrollView>

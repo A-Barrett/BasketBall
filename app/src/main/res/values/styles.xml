@@ -8,8 +8,147 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="TextStyle">
+    <style name="textViewEastern">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/m_s_fifty</item>
+        <item name="android:textColor">@color/studioBlack</item>
+        <item name="android:textSize">@dimen/t_s_twenty</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textViewTeamAscore">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/lo_h_twofourtysix</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/p_b_sixteen</item>
+        <item name="android:paddingTop">@dimen/p_t_ninety</item>
+        <item name="android:textColor">@color/green_m</item>
+        <item name="android:textSize">@dimen/t_s_fifty</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonGreenThreePoints">
+        <item name="android:layout_width">@dimen/b_w_one_hundred</item>
         <item name="android:layout_height">@dimen/lo_h_fourty</item>
+        <item name="android:layout_marginBottom">@dimen/m_B_eight</item>
+        <item name="android:layout_marginStart">@dimen/m_s_ten</item>
+        <item name="android:layout_marginTop">@dimen/m_t_thirteen</item>
+        <item name="android:background">@color/green_m</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonGreenTwoPoints">
+        <item name="android:layout_width">@dimen/lo_w_eighty</item>
+        <item name="android:layout_height">@dimen/lo_h_fourty</item>
+        <item name="android:layout_marginBottom">@dimen/m_b_eight</item>
+        <item name="android:layout_marginEnd">@dimen/m_e_sixteen</item>
+        <item name="android:layout_marginStart">@dimen/m_s_ten</item>
+        <item name="android:background">@color/green_m</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonGreenFreeThrow">
+        <item name="android:layout_width">@dimen/lo_w_sixty</item>
+        <item name="android:layout_height">@dimen/lo_h_fourty</item>
+        <item name="android:layout_marginBottom">@dimen/m_b_eight</item>
+        <item name="android:layout_marginEnd">@dimen/m_e_sixteen</item>
+        <item name="android:layout_marginStart">@dimen/m_s_ten</item>
+        <item name="android:background">@color/green_m</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextCenterLine">
+        <item name="android:layout_width">@dimen/lo_w_two</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="TextViewWestern">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/m_s_sixtyfive</item>
+        <item name="android:paddingEnd">@dimen/p_e_six</item>
+        <item name="android:paddingStart">@dimen/p_s_sixteen</item>
+        <item name="android:textColor">@color/studioBlack</item>
+        <item name="android:textSize">@dimen/t_s_twenty</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewBlueScore">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/lo_h_twofiftyeight</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/p_b_sixteen</item>
+        <item name="android:paddingTop">@dimen/p_t_eighty</item>
+        <item name="android:textColor">@color/m_Blue</item>
+        <item name="android:textSize">@dimen/t_s_fifty</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonBlueThreePoints">
+        <item name="android:layout_width">@dimen/l_o_w_onehundred</item>
+        <item name="android:layout_height">@dimen/lo_h_fourty</item>
+        <item name="android:layout_marginBottom">@dimen/m_B_eight</item>
+        <item name="android:layout_marginStart">@dimen/m_s_seventy</item>
+        <item name="android:background">@color/m_Blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonBlueTwoPoints">
+        <item name="android:layout_width">@dimen/lo_w_eighty</item>
+        <item name="android:layout_height">@dimen/lo_h_fourty</item>
+        <item name="android:layout_marginBottom">@dimen/m_b_eight</item>
+        <item name="android:layout_marginStart">@dimen/m_s_ninety</item>
+        <item name="android:background">@color/m_Blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonBlueFreeThrow">
+        <item name="android:layout_width">@dimen/lo_w_sixty</item>
+        <item name="android:layout_height">@dimen/lo_h_fourty</item>
+        <item name="android:layout_marginStart">@dimen/m_s_oneten</item>
+        <item name="android:background">@color/m_Blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonReset">
+        <item name="android:layout_width">@dimen/lo_w_fifty</item>
+        <item name="android:layout_height">@dimen/lo_h_fourty</item>
+        <item name="android:layout_below">@+id/linearLayout</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@color/darkYellow</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ScrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/court</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+
+    <style name="Linear1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Linear2">
+        <item name="android:layout_width">@dimen/lo_w_zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Linear3">
+        <item name="android:layout_width">@dimen/lo_w_five</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
     </style>
 
 </resources>
